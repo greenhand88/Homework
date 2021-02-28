@@ -1,0 +1,7 @@
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\obj\Debug\简易计算器(控制台）.csprojAssemblyReference.cache
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\obj\Debug\简易计算器(控制台）.csproj.CoreCompileInputs.cache
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\bin\Debug\简易计算器(控制台）.exe.config
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\bin\Debug\简易计算器(控制台）.exe
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\bin\Debug\简易计算器(控制台）.pdb
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\obj\Debug\简易计算器(控制台）.exe
+H:\CSharpProject\简易计算器(控制台）\简易计算器(控制台）\obj\Debug\简易计算器(控制台）.pdb
