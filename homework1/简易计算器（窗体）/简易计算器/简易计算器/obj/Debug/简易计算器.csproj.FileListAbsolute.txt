@@ -1,0 +1,10 @@
+H:\CSharpProject\简易计算器\简易计算器\bin\Debug\简易计算器.exe.config
+H:\CSharpProject\简易计算器\简易计算器\bin\Debug\简易计算器.exe
+H:\CSharpProject\简易计算器\简易计算器\bin\Debug\简易计算器.pdb
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.csprojAssemblyReference.cache
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.Form1.resources
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.Properties.Resources.resources
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.csproj.GenerateResource.cache
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.csproj.CoreCompileInputs.cache
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.exe
+H:\CSharpProject\简易计算器\简易计算器\obj\Debug\简易计算器.pdb
