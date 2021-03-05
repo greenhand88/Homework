@@ -1,0 +1,7 @@
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\bin\Debug\SomethingAboutArray.exe.config
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\bin\Debug\SomethingAboutArray.exe
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\bin\Debug\SomethingAboutArray.pdb
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\obj\Debug\SomethingAboutArray.csprojAssemblyReference.cache
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\obj\Debug\SomethingAboutArray.csproj.CoreCompileInputs.cache
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\obj\Debug\SomethingAboutArray.exe
+H:\CSharpProject\SomethingAboutArray\SomethingAboutArray\obj\Debug\SomethingAboutArray.pdb
