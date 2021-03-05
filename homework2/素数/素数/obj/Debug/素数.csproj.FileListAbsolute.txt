@@ -1,0 +1,7 @@
+H:\CSharpProject\素数\素数\bin\Debug\素数.exe.config
+H:\CSharpProject\素数\素数\bin\Debug\素数.exe
+H:\CSharpProject\素数\素数\bin\Debug\素数.pdb
+H:\CSharpProject\素数\素数\obj\Debug\素数.csprojAssemblyReference.cache
+H:\CSharpProject\素数\素数\obj\Debug\素数.csproj.CoreCompileInputs.cache
+H:\CSharpProject\素数\素数\obj\Debug\素数.exe
+H:\CSharpProject\素数\素数\obj\Debug\素数.pdb
