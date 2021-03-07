@@ -1,0 +1,7 @@
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\bin\Debug\ToeplitzMatrix.exe.config
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\bin\Debug\ToeplitzMatrix.exe
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\bin\Debug\ToeplitzMatrix.pdb
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.csprojAssemblyReference.cache
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.csproj.CoreCompileInputs.cache
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.exe
+H:\CSharpProject\ToeplitzMatrix\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.pdb
