@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem
 {
-    class Order//按照订单号、商品名称、客户、订单金额等进行查询
+    class Order:IComparable//按照订单号、商品名称、客户、订单金额等进行查询
     {
         internal string id { get; set; }
         internal OrderDetails details { get; set; }
@@ -50,5 +50,14 @@ namespace OrderSystem
             return Convert.ToInt32(id);
         }
 
+        public int CompareTo(object obj)
+        {
+            if(obj is Order)
+            {
+                Order temp = obj as Order;
+                return id.CompareTo(temp.id);//此处可进行修改
+            }
+            else { throw new NotImplementedException(); } 
+        }
     }
 }

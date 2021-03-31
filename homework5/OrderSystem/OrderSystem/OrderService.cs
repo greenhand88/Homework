@@ -78,7 +78,7 @@ namespace OrderSystem
         }
         public void Sort()//默认按照ID排
         {
-            list.Sort(Goods.name.Equals());
+            list.Sort();
         }
         public Func<string, Order> ChooseCommand(string command,string p)
         {
