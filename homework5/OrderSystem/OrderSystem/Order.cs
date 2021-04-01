@@ -11,12 +11,10 @@ namespace OrderSystem
         internal string id { get; set; }
         internal OrderDetails details { get; set; }
 
-        protected Order() { }
-        protected Order(string id, Goods goods, Customer customer) 
+        public Order(string id, Goods goods, Customer customer) 
         {
             this.id = id;
             details=new OrderDetails(goods,customer);
-            throw new NotImplementedException();
         }
         public void Update(Order target, string command, string p)
         {
@@ -58,6 +56,13 @@ namespace OrderSystem
                 return id.CompareTo(temp.id);//此处可进行修改
             }
             else { throw new NotImplementedException(); } 
+        }
+        public override string ToString()
+        {
+            Console.WriteLine("ID:"+id);
+            Console.WriteLine(details.goods.ToString());
+            Console.WriteLine(details.customer.ToString());
+            return null;
         }
     }
 }

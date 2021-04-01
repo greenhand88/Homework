@@ -34,9 +34,9 @@ namespace OrderSystem
         public override string ToString()
         {
             return "Goods:"+name+"\n"
-                  +"Price:"+price.ToString() + "\n"
-                  + "From:"+from + "\n"
-                  + "To:"+to + "\n";
+                  +"Price:￥"+price.ToString() + "\n"
+                  +"From:"+from + "\n"
+                  +"To:"+to + "\n";
         }
     }
 }

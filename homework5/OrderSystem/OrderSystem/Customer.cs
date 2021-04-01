@@ -8,6 +8,12 @@ namespace OrderSystem
 {
     class Customer
     {
+        public Customer(string name,string telephone,string address)
+        {
+            this.name = name;
+            this.telephone = telephone;
+            this.address = address;
+        }
         internal string name { get; set; }
         internal string telephone { get; set; }
         internal string address { get; set; }
@@ -24,7 +30,7 @@ namespace OrderSystem
         }
         public override string ToString()
         {
-            return "Goods:" + name + "\n"
+            return  "Customer:" + name + "\n"
                   + "Telephone :" + telephone.ToString() + "\n"
                   + "address :" + address + "\n";
         }
