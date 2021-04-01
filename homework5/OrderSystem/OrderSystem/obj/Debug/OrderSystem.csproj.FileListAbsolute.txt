@@ -1,7 +1,0 @@
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\bin\Debug\OrderSystem.exe.config
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\bin\Debug\OrderSystem.exe
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\bin\Debug\OrderSystem.pdb
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\obj\Debug\OrderSystem.csprojAssemblyReference.cache
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\obj\Debug\OrderSystem.csproj.CoreCompileInputs.cache
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\obj\Debug\OrderSystem.exe
-H:\CSharpProject\homework5\OrderSystem\OrderSystem\obj\Debug\OrderSystem.pdb
