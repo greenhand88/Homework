@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem
 {
-    class Goods
+    public class Goods
     {
         internal string name { get; set; }
         internal double price { get; set; }

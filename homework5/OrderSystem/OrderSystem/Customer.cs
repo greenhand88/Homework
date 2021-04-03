@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem
 {
-    class Customer
+    public class Customer
     {
         public Customer(string name,string telephone,string address)
         {
