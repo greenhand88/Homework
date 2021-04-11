@@ -1,0 +1,10 @@
+H:\CSharpProject\homework7\树状图\树状图\bin\Debug\树状图.exe.config
+H:\CSharpProject\homework7\树状图\树状图\bin\Debug\树状图.exe
+H:\CSharpProject\homework7\树状图\树状图\bin\Debug\树状图.pdb
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.csprojAssemblyReference.cache
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.Form1.resources
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.Properties.Resources.resources
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.csproj.GenerateResource.cache
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.csproj.CoreCompileInputs.cache
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.exe
+H:\CSharpProject\homework7\树状图\树状图\obj\Debug\树状图.pdb
