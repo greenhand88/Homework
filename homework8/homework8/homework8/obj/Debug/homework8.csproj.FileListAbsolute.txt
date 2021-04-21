@@ -1,0 +1,12 @@
+H:\CSharpProject\homework8\homework8\bin\Debug\homework8.exe.config
+H:\CSharpProject\homework8\homework8\bin\Debug\homework8.exe
+H:\CSharpProject\homework8\homework8\bin\Debug\homework8.pdb
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.csprojAssemblyReference.cache
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.number.resources
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.Form2.resources
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.Properties.Resources.resources
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.Success.resources
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.csproj.GenerateResource.cache
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.csproj.CoreCompileInputs.cache
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.exe
+H:\CSharpProject\homework8\homework8\obj\Debug\homework8.pdb
