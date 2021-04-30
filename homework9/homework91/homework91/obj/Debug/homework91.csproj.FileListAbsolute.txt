@@ -1,0 +1,11 @@
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.Properties.Resources.resources
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.csproj.GenerateResource.cache
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.csproj.CoreCompileInputs.cache
+H:\CSharpProject\homework91\homework91\bin\Debug\homework91.exe.config
+H:\CSharpProject\homework91\homework91\bin\Debug\homework91.exe
+H:\CSharpProject\homework91\homework91\bin\Debug\homework91.pdb
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.exe
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.pdb
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.Form1.resources
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.csprojAssemblyReference.cache
+H:\CSharpProject\homework91\homework91\obj\Debug\homework91.Form2.resources
