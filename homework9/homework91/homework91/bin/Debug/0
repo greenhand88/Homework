@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin-when-crossorigin" />
+    <meta name="description" content="前言 最近真的是太忙了，只能趁着五一期间把之前Android版的心情日记App移植到Flutter平台，并且已经上架华为应用市场以及苹果App Store。 整体框架沿用了两个星期，用Flutter撸" />
+    <meta property="og:description" content="前言 最近真的是太忙了，只能趁着五一期间把之前Android版的心情日记App移植到Flutter平台，并且已经上架华为应用市场以及苹果App Store。 整体框架沿用了两个星期，用Flutter撸" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>趁五一撸个纯Flutter版的心情日记App - Game_over - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.svg" type="image/svg+xml" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=zS6-e1bxywlu3kpHvpr1J6MySwya3ztFtEnS7RYQ0Fk" />
+    <link id="MainCss" rel="stylesheet" href="/skins/sea/bundle-sea.min.css?v=oF2SvRIFQNTLcLgn66nPy-bOeZ-5NDS8tPrc0Kt42ys" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/sea/bundle-sea-mobile.min.css?v=t5pWHm7Zavhfg65859uF8OmEaotpCjyYSbKN5RbMv6E" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/game-over/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/game-over/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/game-over/wlwmanifest.xml" />
+    <script>
+        var currentBlogId = 29306;
+        var currentBlogApp = 'game-over';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var isBlogOwner = false;
+        var skinName = 'sea';
+        var visitorUserId = '';
+    </script>
+        <script>
+            var currentPostDateAdded = '2021-05-05 01:57';
+        </script>
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=yJQaJ16S00coMfzvh-NgF2zm2J87f5VfNamFdsnKHrc"></script>
+    
+    
+    
+</head>
+<body class="has-navbar has-bannerbar">
+    <a name="top"></a>
+        <a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=swh7dvlt" onclick="ga('send', 'event', 'Link', 'click', 'aliyun-cps-blog-bannerbar-pc')">
+            <div class="bannerbar aliyun forpc" style="background-size: contain;background-image: url(https://img2020.cnblogs.com/blog/35695/202104/35695-20210428221933214-737067094.jpg)">
+            </div>
+        </a>
+        <div id="bannerbar" class="bannerbar-mobile formobile">
+            <a href="https://www.aliyun.com/minisite/goods?userCode=swh7dvlt" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'aliyun-cps-blog-bannerbar-mobile')">
+                <img src="https://img2020.cnblogs.com/blog/35695/202104/35695-20210428213541700-642740375.jpg" alt="" />
+            </a>
+        </div>
+    <div id="top_nav" class="navbar forpc">
+        <nav id="nav_main" class="navbar-main">
+            <ul id="nav_left" class="navbar-list navbar-left">
+                <li class="navbar-branding"><a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo.svg?v=R9M0WmLAIPVydmdzE2keuvnjl-bPR7_35oHqtiBzGsM" alt="博客园Logo" /></a></li>
+                <li><a href="/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-sitehome')">首页</a></li>
+                <li><a href="https://news.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-news')">新闻</a></li>
+                <li><a href="https://q.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-q')">博问</a></li>
+                <li><a id="nav_brandzone" href="https://brands.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-brands')">专区</a></li>
+                <li><a href="https://ing.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-ing')">闪存</a></li>
+                <li><a href="https://edu.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-edu')">班级</a></li>
+            </ul>
+            <ul id="nav_right" class="navbar-list navbar-right">
+                <li>
+                    <form id="zzk_search" class="navbar-search" action="https://zzk.cnblogs.com/s" method="get">
+                        <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="text" tabindex="3" />
+                        <button type="submit" id="zzk_search_button">
+                            <img src="/images/aggsite/search.svg" alt="搜索" />
+                        </button>
+                    </form>
+                </li>
+                <li id="navbar_login_status" class="navbar-list">
+                    <a class="navbar-user-info navbar-blog" href="https://i.cnblogs.com/EditPosts.aspx?opt=1" alt="写随笔" title="写随笔">
+                        <img id="new_post_icon" class="navbar-icon" src="/images/aggsite/newpost.svg" alt="写随笔" />
+                    </a>
+                    <a id="navblog-myblog-icon" class="navbar-user-info navbar-blog" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx" alt="我的博客" title="我的博客">
+                        <img id="myblog_icon" class="navbar-icon" src="/images/aggsite/myblog.svg" alt="我的博客" />
+                    </a>
+                    <a class="navbar-user-info navbar-message navbar-icon-wrapper" href="https://msg.cnblogs.com/" alt="短消息" title="短消息">
+                        <img id="msg_icon" class="navbar-icon" src="/images/aggsite/message.svg?v=J0WS2P2iPgaIVgXxcAhliw4AFZIpaTWxtdoNAv9eiCA" alt="短消息" />
+                        <span id="msg_count" style="display: none"></span>
+                    </a>
+                    <div id="user_info" class="navbar-user-info dropdown">
+                        <a class="dropdown-button" href="https://home.cnblogs.com/">
+                            <img id="user_icon" class="navbar-avatar" src="/images/aggsite/avatar-default.svg" alt="用户头像" />
+                        </a>
+                        <div class="dropdown-menu">
+                            <a id="navblog-myblog-text" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx">我的博客</a>
+                            <a href="https://home.cnblogs.com/">我的园子</a>
+                            <a href="https://account.cnblogs.com/settings/account">账号设置</a>
+                            <a href="javascript:void(0)" id="navbar_lite_mode_toggle" title="简洁模式会使用简洁款皮肤显示所有博客">
+    简洁模式 <img id="navbar_lite_mode_on" src="/images/lite-mode-check.svg" class="hide" /><span id="navbar_lite_mode_spinner" class="hide">...</span>
+</a>
+                            <a href="javascript:void(0)" onclick="account.logout();">退出登录</a>
+                        </div>
+                    </div>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signup/">注册</a>
+                    <a class="navbar-anonymous" href="javascript:void(0);" onclick="account.login()">登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <!--done-->
+<div id="header">
+	
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/game-over/">game-over</a>
+<br>
+		
+	</div>
+</div>
+
+
+</div>
+
+<div id="mytopmenu">
+	
+		<div id="mylinks">
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+ &nbsp;
+
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/game-over/">
+首页</a>
+ &nbsp;
+
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+ &nbsp;
+
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Game_over">
+联系</a> &nbsp;
+
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/game-over/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/game-over/rss/">
+    <img src="/skins/sea/images/xml.gif" alt="订阅" />
+</a>&nbsp;
+
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+
+
+</div>
+		<DIV id="mystats"><div id="blog_stats_place_holder"><script>loadBlogStats();</script></div></DIV>
+	
+</div>
+<div id="centercontent">
+	<div id="post_detail">
+<div class="post">
+	<h1 class = "postTitle">
+<a id="cb_post_title_url" class="postTitle2 vertical-middle" href="https://www.cnblogs.com/game-over/p/14731567.html">
+    <span>趁五一撸个纯Flutter版的心情日记App</span>
+    
+
+
+
+</a>
+</h1>
+	<div id="cnblogs_post_body" class="blogpost-body blogpost-body-html">
+<h3>前言</h3>
+<p>最近真的是太忙了，只能趁着五一期间把之前Android版的心情日记App移植到Flutter平台，并且已经上架<a href="https://appgallery.huawei.com/#/app/C100159589" target="_blank">华为应用市场</a>以及<a href="https://apps.apple.com/cn/app/mood%E6%97%A5%E8%AE%B0-%E5%BF%83%E6%83%85%E6%A0%91%E6%B4%9E/id1565729198" target="_blank">苹果App Store</a>。</p>
+<p>&nbsp;</p>
+<p><img src="https://img2020.cnblogs.com/blog/25746/202105/25746-20210505133438441-1364749496.png" alt="" width="679" height="1207" loading="lazy"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>整体框架沿用了<a href="https://www.cnblogs.com/game-over/p/9998392.html" target="_blank">两个星期，用Flutter撸个APP</a>的架构，又加入了众多插件新功能。</p>
+<p>下面给大家分享一下经过本人试用感觉好用的插件。</p>
+<p>&nbsp;</p>
+<h3>&nbsp;插件分享</h3>
+<p>admob_flutter</p>
+<p>admob的插件，试用了好几个，这个是最方便集成的。</p>
+<p>&nbsp;</p>
+<p>sqflite、floor</p>
+<p>floor是个orm框架，基于sqflite，提供了很容易使用的数据库操作。</p>
+<p>&nbsp;</p>
+<p>umeng_statistics</p>
+<p>友盟的统计工具，也是试用了好几个，这个是最好用的。</p>
+<p>&nbsp;</p>
+<p>photo_view</p>
+<p>有手势操作的图片查看库。</p>
+<p>&nbsp;</p>
+<p>qiniu_flutter_sdk</p>
+<p>想不到把，七牛也提供了官方的flutter版本SDK。</p>
+<p>&nbsp;</p>
+<p>gesture_recognition</p>
+<p>手势密码的库。</p>
+<p>&nbsp;</p>
+<h3>自制插件</h3>
+<p>Android版的心情日记使用的小米广告SDK，却没有提供FLutter版，所以只好自己撸一个插件。</p>
+<p>其实非常的简单。整个代码加起来不到200行，而且全都是invoke method这种。</p>
+<p><img src="https://img2020.cnblogs.com/blog/25746/202105/25746-20210505135626830-1508128890.png" alt="" loading="lazy"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>整体架构</h3>
+<p><img src="https://img2020.cnblogs.com/blog/25746/202105/25746-20210505135602836-719505774.png" alt="" loading="lazy"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>意料之外</h3>
+<p>此次主要是上架了Apple App Store，因为是第一次上架Flutter版本的App，所以上架之前也是很忐忑。</p>
+<p>谁料想昨天晚上提交了审核，到早上一睁眼打开手机就收到了审核通过的邮件，真的是开心。</p>
+<p>&nbsp;</p>
+<h3>结语</h3>
+<p>这个集成了众多花哨功能，多语言、黑夜模式、主题颜色、多字体，<a href="https://apps.apple.com/cn/app/mood%E6%97%A5%E8%AE%B0-%E5%BF%83%E6%83%85%E6%A0%91%E6%B4%9E/id1565729198" target="_blank">欢迎大家下载试用</a>。有想沟通交流的可以留言或者私信我哦。</p>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+	<div class="postDesc">posted on 
+<span id="post-date">2021-05-05 13:57</span>&nbsp;
+<a href="https://www.cnblogs.com/game-over/">Game_over</a>&nbsp;
+阅读(<span id="post_view_count">0</span>)&nbsp;
+评论(<span id="post_comment_count">0</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=14731567" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(14731567);return false;">收藏</a></div>
+</div>
+
+
+<script src="https://common.cnblogs.com/highlight/10.3.1/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 29306, cb_blogApp = 'game-over', cb_blogUserGuid = '8b7e3d0b-63cf-dd11-9e4d-001cf0cd104b';
+    var cb_entryId = 14731567, cb_entryCreatedDate = '2021-05-05 13:57', cb_postType = 1;
+    updatePostStats(
+        [cb_entryId],
+        function(id, count) { $("#post_view_count").text(count) },
+        function(id, count) { $("#post_comment_count").text(count) })
+    zoomManager.apply("#cnblogs_post_body img:not(.code_img_closed):not(.code_img_opened)");
+</script>
+<a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <div id="cnblogs_c1" class="under-post-card">
+        <div id='div-gpt-ad-1592365906576-0' style='width: 300px; height: 250px;'></div>
+    </div>
+    <div id="under_post_card1"></div>
+    <div id="cnblogs_c2" class="under-post-card">
+        <div id='div-gpt-ad-1592366332455-0' style='width: 468px; height: 60px;'></div>
+    </div>
+    <div id="under_post_card2"></div>
+    <div id="HistoryToday" class="under-post-card"></div>
+    <script type="text/javascript">
+       var commentManager = new blogCommentManager();
+       commentManager.renderComments(0);
+       fixPostBody();
+       deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);       deliverT2();
+       deliverC1C2();
+       loadNewsAndKb();
+       loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);       LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+       GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+       loadOptUnderPost();
+       GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+
+</div>
+
+
+</div>
+<div id="leftcontent">
+	
+		<DIV id="leftcontentcontainer">
+			<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+<div id="sidebar_c3"></div>
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script><br>
+			<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script></DIV>
+	
+</div>
+<!--done-->
+<div class="footer">
+	Powered by: <a href="http://www.cnblogs.com">博客园</a>
+	Copyright &copy; 2021 Game_over
+<br /><span id="poweredby">Powered by .NET 5.0 on Kubernetes</span>
+
+</div>
+
+
+
+
+
+
+    <div id="page_end_html">
+        <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12353270-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+    </div>
+
+    <input type="hidden" id="antiforgery_token" value="CfDJ8L-rpLgFVEJMgssCVvNUAju8ZN1v4undkkm9rI30hQ5cP1hPLu7WuDp8ZYKloHrqi5ylBhIOXyuFjD2_ToE0Q0wTu36lAAE93-UxETwGUSMhBi65M9dUjbd19y1JyN1W7sRa8IoF0IEwmBr7l9eHmfw" />
+</body>
+</html>

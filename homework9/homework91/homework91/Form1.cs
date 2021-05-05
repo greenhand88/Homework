@@ -16,15 +16,29 @@ namespace homework91
         public Form1()
         {
             InitializeComponent();
-
+            listBox1.Items.Add("http://www.cnblogs.com/");
+            listBox2.Items.Add("game-over/p/14731567.html");
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            //if (textBox1.Text != null) 
-            //    simpleCrawler.ResetStartUrl(textBox1.Text);
-            if (textBox2.Text != null)
-                simpleCrawler.ADD(textBox2.Text);
+            if (listBox1.Items != null && listBox2.Items != null)
+            {
+                for (int i = 0; i < listBox1.SelectedItems.Count; i++)
+                    simpleCrawler.ADD(listBox1.SelectedItems[i].ToString(), listBox2.SelectedItems[i].ToString());
+            }
             simpleCrawler.Crawl();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text != null)
+                listBox2.Items.Add(textBox2.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != null)
+                listBox1.Items.Add(textBox1.Text);
         }
     }
 }
